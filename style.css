@@ -21,7 +21,7 @@
 }
 #callback p{
 	color: #fff;
-	padding: 5px;
+	padding: 39px;
 }
 #callback:after{
 	content: 'Обратная связь';
@@ -76,4 +76,18 @@
 }
 .card:hover .description{
 		transform: rotateY(360deg);
+}
+h1{
+	background-color: #d4c4ff;
+	width: 30vw;
+	color: #fff;
+	animation: myanim 5s linear alternate infinite;
+}
+@keyframes myanim{
+	from{
+		margin-left: 0;
 	}
+	to{
+		margin-left: 500px;
+	}
+}
